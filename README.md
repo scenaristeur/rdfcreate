@@ -1,5 +1,5 @@
 # rdfcreate
-create rdf online rdfgraphes
+create rdf online rdfgraphes with Polymer 1 $1recognizer & p5js
 
 #Demo
 https://rdfcreate.firebaseapp.com/
