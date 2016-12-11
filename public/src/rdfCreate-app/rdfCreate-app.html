@@ -1,0 +1,34 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/rdfcreate-recognizer/rdfcreate-recognizer.html">
+<link rel="import" href="../../bower_components/rdfcreate-drawer/rdfcreate-drawer.html">
+
+<dom-module id="rdfCreate-app">
+  <template>
+    <style>
+      :host {
+        display: block;
+      },
+
+    </style>
+  <!--  <h2>Hello [[prop1]]</h2>-->
+  <div id="lesCanvas">
+    <rdfcreate-recognizer></rdfcreate-recognizer>
+    <rdfcreate-drawer></rdfcreate-drawer>
+  <div>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'rdfCreate-app',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'rdfCreate-app',
+        },
+      },
+
+    });
+  </script>
+</dom-module>

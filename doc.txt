@@ -1,0 +1,11 @@
+mkdir createRdf
+cd createRdf
+npm init
+npm install --save express socket.io
+mkdir public
+cd public
+polymer init -> starter-kit
+cd bower_components
+mkdir gesture-recognizer
+cd gesture-recognizer
+polymer init -> element
